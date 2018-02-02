@@ -6,8 +6,8 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Feb 2018 18:46:05 -0200</pubDate>
-    <lastBuildDate>Fri, 02 Feb 2018 18:46:05 -0200</lastBuildDate>
+    <pubDate>Fri, 02 Feb 2018 19:08:21 -0200</pubDate>
+    <lastBuildDate>Fri, 02 Feb 2018 19:08:21 -0200</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
@@ -79,28 +79,23 @@
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;get-jektify&quot;&gt;Get Jektify&lt;/h1&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Add &lt;strong&gt;Jektify&lt;/strong&gt; to your Gemfile and run the command: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Add &lt;strong&gt;Jektify&lt;/strong&gt; to your Gemfile and run the command: &lt;code&gt;bundle install&lt;/code&gt;:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:jekyll_plugins&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jektify&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:jekyll_plugins&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;jektify&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;or run command:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jektify&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;gem install jektify&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;setting-up&quot;&gt;Setting up&lt;/h1&gt;
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;setting-up-your-stylesheet-using-jekyll-sass&quot;&gt;Setting up your stylesheet using Jekyll SASS&lt;/h2&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;If you use CSS Jekyll, insert this line in the manifest &lt;code class=&quot;highlighter-rouge&quot;&gt;main.scss&lt;/code&gt; SASS of your project:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;If you use CSS Jekyll, insert this line in the manifest &lt;code&gt;main.scss&lt;/code&gt; SASS of your project:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;jektify&quot;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;jektify&amp;quot;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;Note: It is advisable to insert the end of all imports&lt;/p&gt;
@@ -112,130 +107,100 @@
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;configuration-file-_configyml&quot;&gt;Configuration file “_config.yml”&lt;/h2&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Now, you need to configure the file &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; your theme Jekyll.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Now, you need to configure the file &lt;code&gt;_config.yml&lt;/code&gt; your theme Jekyll.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;The following lines should be inserted:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;na&quot;&gt;plugins&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jektify&lt;/span&gt;
-
-&lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;using&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;  
-  &lt;span class=&quot;na&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;williamcanin&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;See me no Spotify&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;sass&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;way/to/your/SASS&quot;&lt;/span&gt;   
-  &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Jektify&quot;&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-      &lt;span class=&quot;no&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.&lt;/span&gt;
-      &lt;span class=&quot;no&quot;&gt;To listen to the full song, open your Spotify and start these musics.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt; 1 &lt;/span&gt;&lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;plugins&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2 &lt;/span&gt;  &lt;span class=&quot;p p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;jektify&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 3 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4 &lt;/span&gt;&lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 5 &lt;/span&gt;  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 6 &lt;/span&gt;  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 7 &lt;/span&gt;  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;using&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;true&lt;/span&gt;  
+&lt;span class=&quot;lineno&quot;&gt; 9 &lt;/span&gt;  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;williamcanin&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;11 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;See me no Spotify&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;12 &lt;/span&gt;  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;sass&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;13 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;14 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;15 &lt;/span&gt;      &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;way/to/your/SASS&amp;quot;&lt;/span&gt;   
+&lt;span class=&quot;lineno&quot;&gt;16 &lt;/span&gt;  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;17 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;18 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Jektify&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;19 &lt;/span&gt;  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;20 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;21 &lt;/span&gt;    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p p-Indicator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;22 &lt;/span&gt;      &lt;span class=&quot;no&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;23 &lt;/span&gt;      &lt;span class=&quot;no&quot;&gt;To listen to the full song, open your Spotify and start these musics.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 class=&quot;markdown__h3&quot; id=&quot;what-does-each-option-do&quot;&gt;What does each option do?&lt;/h3&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 2 ]&lt;/code&gt; Report for Jekyll use &lt;strong&gt;Jektify&lt;/strong&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 2 ]&lt;/code&gt; Report for Jekyll use &lt;strong&gt;Jektify&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 5 ]&lt;/code&gt; - Option: [ true / false ] Enables or disables the plugin for all site.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 5 ]&lt;/code&gt; - Option: [ true / false ] Enables or disables the plugin for all site.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 6 ]&lt;/code&gt; - Option: [ true / false ]  In this line you define whether you want the “Jektify” let the music box in open or closed mode in page. Remember that if the “&lt;code class=&quot;highlighter-rouge&quot;&gt;toggle =&amp;gt; using&lt;/code&gt;” option is set to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;, any value in this option will have no implication.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 6 ]&lt;/code&gt; - Option: [ true / false ]  In this line you define whether you want the “Jektify” let the music box in open or closed mode in page. Remember that if the “&lt;code&gt;toggle =&amp;gt; using&lt;/code&gt;” option is set to &lt;code&gt;false&lt;/code&gt;, any value in this option will have no implication.&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;If a different value of these two themes is inserted, the Jekyll Spotify
 Plugin will have operation error.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 8 ]&lt;/code&gt; - Option [ true / false ] This feature enables you to enable or disable the Toggle function of the Jektify. If it is set to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; a button in the upper right corner will exist for an action to scroll and unroll the window. If the value is equal to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;, the button will not exist, only open window will be created, this causes the javascript of Jektify  not to be generated for the user, because the scrolling and unwinding depends on the script.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 8 ]&lt;/code&gt; - Option [ true / false ] This feature enables you to enable or disable the Toggle function of the Jektify. If it is set to &lt;code&gt;true&lt;/code&gt; a button in the upper right corner will exist for an action to scroll and unroll the window. If the value is equal to &lt;code&gt;false&lt;/code&gt;, the button will not exist, only open window will be created, this causes the javascript of Jektify  not to be generated for the user, because the scrolling and unwinding depends on the script.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 10 ]&lt;/code&gt; - Option [ user Spotify ] Put your Spotify user on this line to create a redirect button in the Spotify online player. If &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt; are empty, the Jektify will not render this option. So, if you do not want to use it, leave the values with nothing.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 10 ]&lt;/code&gt; - Option [ user Spotify ] Put your Spotify user on this line to create a redirect button in the Spotify online player. If &lt;code&gt;name&lt;/code&gt; or &lt;code&gt;text&lt;/code&gt; are empty, the Jektify will not render this option. So, if you do not want to use it, leave the values with nothing.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 11 ]&lt;/code&gt; - Option [ text ] Here is the custom text that the redirect button will have. Put a very attractive and short.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 11 ]&lt;/code&gt; - Option [ text ] Here is the custom text that the redirect button will have. Put a very attractive and short.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 13 ]&lt;/code&gt; Option [ true / false ] This line is very important! In it you will define using the build SASS Jekyll or other compilation of SASS, as the Gulp. If you use the Jekyll, let &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;. If you do not use SASS of Jekyll leaves to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 13 ]&lt;/code&gt; Option [ true / false ] This line is very important! In it you will define using the build SASS Jekyll or other compilation of SASS, as the Gulp. If you use the Jekyll, let &lt;code&gt;true&lt;/code&gt;. If you do not use SASS of Jekyll leaves to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 15 ]&lt;/code&gt; Option [ path ] If the line &lt;code class=&quot;highlighter-rouge&quot;&gt;13&lt;/code&gt; is&lt;code class=&quot;highlighter-rouge&quot;&gt; false&lt;/code&gt;, you should inform the way the vendor folder of your SASS files. For example: If you store your SASS files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;src/sass/vendor&lt;/code&gt;, then that is the way you have to put in the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;dir&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 15 ]&lt;/code&gt; Option [ path ] If the line &lt;code&gt;13&lt;/code&gt; is&lt;code&gt; false&lt;/code&gt;, you should inform the way the vendor folder of your SASS files. For example: If you store your SASS files in the &lt;code&gt;src/sass/vendor&lt;/code&gt;, then that is the way you have to put in the variable &lt;code&gt;dir&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;After setting the path and build the project, a folder will be created to export the SASS of Jektify, in the path of the &lt;code class=&quot;highlighter-rouge&quot;&gt;dir&lt;/code&gt; . With this, you must load the exported SASS in your manifest (&lt;code class=&quot;highlighter-rouge&quot;&gt;main.scss&lt;/code&gt;). For example:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;After setting the path and build the project, a folder will be created to export the SASS of Jektify, in the path of the &lt;code&gt;dir&lt;/code&gt; . With this, you must load the exported SASS in your manifest (&lt;code&gt;main.scss&lt;/code&gt;). For example:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;{way/to/your/SASS/vendor}/jektify/jektify&quot;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;{way/to/your/SASS/vendor}/jektify/jektify&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 17 and 20 ]&lt;/code&gt; - Option: [ true / false ]  If you want a title or description, leave to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;. Otherwise, leave as &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[ Line 17 and 20 ]&lt;/code&gt; - Option: [ true / false ]  If you want a title or description, leave to &lt;code&gt;true&lt;/code&gt;. Otherwise, leave as &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[ Line 18 and 21 ]&lt;/code&gt;  If the line 17 (or line 20) is in the &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;, enter your title (or description) in variable &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;. So if you want a title and content inside the music box…use true.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code&gt;[ Line 18 and 21 ]&lt;/code&gt;  If the line 17 (or line 20) is in the &lt;code&gt;true&lt;/code&gt;, enter your title (or description) in variable &lt;code&gt;text&lt;/code&gt;. So if you want a title and content inside the music box…use true.&lt;/p&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;importing-javascript&quot;&gt;Importing JavaScript&lt;/h1&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
-  &lt;p&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;ATTENTION!&lt;/code&gt; Using Javascript in the Jektify will only be necessary if the Toggle feature is set to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; at line 8(eight) in
+  &lt;p&gt;&lt;code class=&quot;markdown__code&quot;&gt;ATTENTION!&lt;/code&gt; Using Javascript in the Jektify will only be necessary if the Toggle feature is set to &lt;code&gt;true&lt;/code&gt; at line 8(eight) in
  “&lt;a href=&quot;https://jektify.github.io/#configuration-file-_configyml&quot; class=&quot;markdown__link&quot;&gt;Configuration file _config.yml&lt;/a&gt;”.
 &lt;strong&gt;Before you begin, you must import the &lt;a href=&quot;https://jquery.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;JQuery&lt;/a&gt; for your project.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;After setting the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file and imported the SASS of &lt;strong&gt;Jektify&lt;/strong&gt;, you must import the JavaScript &lt;strong&gt;Jektify&lt;/strong&gt; for HTML. The &lt;strong&gt;Jektify&lt;/strong&gt; copy the Javascript to the folder of the compiled site &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;After setting the &lt;code&gt;_config.yml&lt;/code&gt; file and imported the SASS of &lt;strong&gt;Jektify&lt;/strong&gt;, you must import the JavaScript &lt;strong&gt;Jektify&lt;/strong&gt; for HTML. The &lt;strong&gt;Jektify&lt;/strong&gt; copy the Javascript to the folder of the compiled site &lt;code&gt;_site&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;assets/vendor/jektify/js/jektify.min.js
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;assets/vendor/jektify/js/jektify.min.js
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Do import JavaScript in &lt;code class=&quot;highlighter-rouge&quot;&gt;_layout/default.html&lt;/code&gt; at the end of
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Do import JavaScript in &lt;code&gt;_layout/default.html&lt;/code&gt; at the end of
 &amp;lt;/ body&amp;gt;, like this:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;...
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{ { &quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assets&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;vendor&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;prepend:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;baseurl&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;...
+&lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{ { &amp;quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assets&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;vendor&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;prepend:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;baseurl&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;markdown__paragraph markdown__blockquote&quot;&gt;
-  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Note 1&lt;/code&gt;: Do not leave space between &lt;code class=&quot;highlighter-rouge&quot;&gt;{ {&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;} }&lt;/code&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;code&gt;Note 1&lt;/code&gt;: Do not leave space between &lt;code&gt;{ {&lt;/code&gt; and &lt;code&gt;} }&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote class=&quot;markdown__paragraph markdown__blockquote&quot;&gt;
-  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Note 2&lt;/code&gt;: Do not forget to load the script Jektify after &lt;a href=&quot;https://jquery.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;JQuery&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;&lt;code&gt;Note 2&lt;/code&gt;: Do not forget to load the script Jektify after &lt;a href=&quot;https://jquery.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;JQuery&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;importing-with-cdn&quot;&gt;Importing with CDN:&lt;/h2&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You can use CDN of the respective version:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;---
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.rawgit.com/jektify/jektify/master/cdn/v[VERSION]/jektify.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;---
+&lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://cdn.rawgit.com/jektify/jektify/master/cdn/v[VERSION]/jektify.min.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You can see the CDNs of the other [VERSION] in:&lt;/p&gt;
 
@@ -253,21 +218,20 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;img-fluid d-block mx-auto&quot; src=&quot;https://jektify.github.io/assets/images/doc/capture_uri.jpg&quot; alt=&quot;Capture URI&quot; /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;It will open a dialog, when open click &lt;code class=&quot;highlighter-rouge&quot;&gt;URI&lt;/code&gt; to copy.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;It will open a dialog, when open click &lt;code&gt;URI&lt;/code&gt; to copy.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;What you will get looks like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spotify:track:08mG3Y1vljYA6bvDt4Wqkj
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;spotify:track:08mG3Y1vljYA6bvDt4Wqkj
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;The &lt;strong&gt;Jektify&lt;/strong&gt; will use this URI, the only difference being that instead of being &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt; will be &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;. See below how it works.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;The &lt;strong&gt;Jektify&lt;/strong&gt; will use this URI, the only difference being that instead of being &lt;code&gt;:&lt;/code&gt; will be &lt;code&gt;/&lt;/code&gt;. See below how it works.&lt;/p&gt;
 
 &lt;h3 class=&quot;markdown__h3&quot; id=&quot;tag-jektify&quot;&gt;Tag Jektify&lt;/h3&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;The &lt;strong&gt;Jektify&lt;/strong&gt; it works with the following tags:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jektify&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]/[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]/[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]/[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;Note: There can be no spaces between the keys. This here for the &lt;strong&gt;Jektify&lt;/strong&gt; does not come into work.&lt;/p&gt;
@@ -275,23 +239,23 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;Note that there are three (4) parameters, all separated by slash. Let us know what each one does:&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[user]&lt;/code&gt;  Option [ spotify / your_user ]&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[user]&lt;/code&gt;  Option [ spotify / your_user ]&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;By default it is &lt;code class=&quot;highlighter-rouge&quot;&gt;spotify&lt;/code&gt;. Will only change if you use &lt;code class=&quot;highlighter-rouge&quot;&gt;playlist&lt;/code&gt; in the second parameter (type), which will have to inform the user of the playlist.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;By default it is &lt;code&gt;spotify&lt;/code&gt;. Will only change if you use &lt;code&gt;playlist&lt;/code&gt; in the second parameter (type), which will have to inform the user of the playlist.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[type]&lt;/code&gt; Option [ track / album / playlist / artist ]&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[type]&lt;/code&gt; Option [ track / album / playlist / artist ]&lt;/p&gt;
 
 &lt;ul class=&quot;markdown__list&quot;&gt;
   &lt;li&gt;This is the parameter with more options, it will inform you, that the ID &lt;strong&gt;Jektify&lt;/strong&gt; will insert, if a track, album, playlist or artist.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[id]&lt;/code&gt; Option [ id ]&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[id]&lt;/code&gt; Option [ id ]&lt;/p&gt;
 
 &lt;ul class=&quot;markdown__list&quot;&gt;
   &lt;li&gt;Here is the track ID, album, playlist, artist constituted by an extension number.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[theme]&lt;/code&gt; Option [ white / dark ]&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code&quot;&gt;[theme]&lt;/code&gt; Option [ white / dark ]&lt;/p&gt;
 
 &lt;ul class=&quot;markdown__list&quot;&gt;
   &lt;li&gt;Here you put a theme, Spotify makes available 2 (two) at the moment, the “dark” and the “light”.&lt;/li&gt;
@@ -299,20 +263,13 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;track&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;62&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qsgMnY4wg8nE5qjyOdWO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;williamcanin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;playlist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;48&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brJJZdVifY79QAFmEImq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;artist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;711&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MCceyCBcFnzjGY4Q7Un&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;album&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;OwvO40ahugJE5PH4TjqTg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jektify&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;track&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;62&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qsgMnY4wg8nE5qjyOdWO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jektify&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;williamcanin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;playlist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;48&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brJJZdVifY79QAFmEImq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jektify&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;artist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;711&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MCceyCBcFnzjGY4Q7Un&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;7 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jektify&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;album&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;OwvO40ahugJE5PH4TjqTg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;Note: Do not leave spaces between the keys.&lt;/p&gt;
@@ -324,118 +281,66 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;strong&gt;Jektify&lt;/strong&gt; already has a suitable customization for sensitive layouts, but still leaves a case of personalization itself, the user chooses the themes at hand and the way it fits into your page template.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;To customize to your liking, use the class &lt;code class=&quot;highlighter-rouge&quot;&gt;.jektify&lt;/code&gt; in your stylesheets (SASS). Use your browser’s developer tool. E.g: Google Dev Tools, to know which classes to change.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;To customize to your liking, use the class &lt;code&gt;.jektify&lt;/code&gt; in your stylesheets (SASS). Use your browser’s developer tool. E.g: Google Dev Tools, to know which classes to change.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;The class structure &lt;code class=&quot;highlighter-rouge&quot;&gt;.jektify&lt;/code&gt; this is:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;The class structure &lt;code&gt;.jektify&lt;/code&gt; this is:&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;NOTE: You should put CSS properties inside the subclass “–custom”.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.jektify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__brand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__tracklist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__track&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt; 1 &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.jektify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 3 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 5 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 6 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 7 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__brand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 9 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;11 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;12 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;13 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;14 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;15 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;16 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;17 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;18 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;19 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;20 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;21 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;22 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;23 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;24 &lt;/span&gt;      &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;25 &lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;26 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;27 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;28 &lt;/span&gt;      &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;29 &lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;30 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;31 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;32 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;33 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;34 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;35 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;36 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;37 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;38 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;39 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;40 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;41 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;42 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;43 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;44 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__tracklist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;45 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;46 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;47 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;48 &lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;__track&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;49 &lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--custom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;50 &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;51 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;52 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;demos&quot;&gt;Demos&lt;/h1&gt;
 
