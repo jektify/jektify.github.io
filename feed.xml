@@ -6,8 +6,8 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Feb 2018 10:08:44 -0200</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2018 10:08:44 -0200</lastBuildDate>
+    <pubDate>Tue, 06 Feb 2018 13:18:04 -0200</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2018 13:18:04 -0200</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
@@ -53,7 +53,7 @@
       &lt;li&gt;&lt;a href=&quot;#album&quot; id=&quot;markdown-toc-album&quot;&gt;Album&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#report-questions&quot; id=&quot;markdown-toc-report-questions&quot;&gt;Report questions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#report-questions--feedbacks&quot; id=&quot;markdown-toc-report-questions--feedbacks&quot;&gt;Report questions / Feedbacks&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#license&quot; id=&quot;markdown-toc-license&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -449,9 +449,9 @@ To listen to the full song, open your Spotify and start these musics.
           &lt;/dd&gt;
         &lt;/dl&gt;
 
-&lt;h1 class=&quot;markdown__h1&quot; id=&quot;report-questions&quot;&gt;Report questions&lt;/h1&gt;
+&lt;h1 class=&quot;markdown__h1&quot; id=&quot;report-questions--feedbacks&quot;&gt;Report questions / Feedbacks&lt;/h1&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;You can take doubt here: &lt;a href=&quot;https://github.com/jektify/jektify/issues&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;GitHub Issues&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;You can take questions in &lt;a href=&quot;https://github.com/jektify/jektify/issues&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;GitHub Issues&lt;/a&gt;,&lt;/p&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;license&quot;&gt;License&lt;/h1&gt;
 
