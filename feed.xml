@@ -6,8 +6,8 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Sep 2018 12:44:05 -0300</pubDate>
-    <lastBuildDate>Mon, 10 Sep 2018 12:44:05 -0300</lastBuildDate>
+    <pubDate>Wed, 30 Jan 2019 21:43:57 -0200</pubDate>
+    <lastBuildDate>Wed, 30 Jan 2019 21:43:57 -0200</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -20,7 +20,6 @@
       &lt;li&gt;&lt;a href=&quot;#why-does-jektify-exist&quot; id=&quot;markdown-toc-why-does-jektify-exist&quot;&gt;Why does Jektify exist?&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#dependencies&quot; id=&quot;markdown-toc-dependencies&quot;&gt;Dependencies&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#get-jektify&quot; id=&quot;markdown-toc-get-jektify&quot;&gt;Get Jektify&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#setting-up&quot; id=&quot;markdown-toc-setting-up&quot;&gt;Setting up&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#setting-up-your-stylesheet-using-jekyll-sass&quot; id=&quot;markdown-toc-setting-up-your-stylesheet-using-jekyll-sass&quot;&gt;Setting up your stylesheet using Jekyll SASS&lt;/a&gt;        &lt;ul&gt;
@@ -68,10 +67,6 @@
 &lt;p class=&quot;markdown__paragraph&quot;&gt;Besides inserting music is fully responsive, adjusting as your page layout, even on mobile devices.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You need to install, so let’s mission:&lt;/p&gt;
-
-&lt;h1 class=&quot;markdown__h1&quot; id=&quot;dependencies&quot;&gt;Dependencies&lt;/h1&gt;
-
-&lt;p&gt;&lt;a class=&quot;markdown__link no-decoration&quot; href=&quot;https://gemnasium.com/github.com/jektify/jektify&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://gemnasium.com/badges/github.com/jektify/jektify.svg&quot; alt=&quot;Dependency Status&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You can see the dependencies of gem Jektify through &lt;a href=&quot;https://gemnasium.com/github.com/jektify/jektify&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Gemnasium&lt;/a&gt;. All dependencies are listed.&lt;/p&gt;
 
@@ -201,8 +196,9 @@ Plugin will have operation error.&lt;/p&gt;
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You can use CDN of the respective version:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;---
-&lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://cdn.rawgit.com/jektify/jektify/master/cdn/v[VERSION]/jektify.min.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;3 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://cdn.jsdelivr.net/gh/jektify/jektify/cdn/&amp;lt;VERSION&amp;gt;/jektify.min.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You can see the CDNs of the other [VERSION] in:&lt;/p&gt;
 
@@ -347,7 +343,7 @@ Plugin will have operation error.&lt;/p&gt;
 
             &lt;a class=&quot;jektify__brand jektify__brand--white jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
 
-            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2018&amp;nbsp;&lt;/i&gt;
+            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2019&amp;nbsp;&lt;/i&gt;
               &lt;span class=&quot;jektify__button jektify__button--white jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
           &lt;/dt&gt;
 
@@ -375,7 +371,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;a class=&quot;jektify__brand jektify__brand--dark jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
 
-            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2018&amp;nbsp;&lt;/i&gt;
+            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2019&amp;nbsp;&lt;/i&gt;
               &lt;span class=&quot;jektify__button jektify__button--dark jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
           &lt;/dt&gt;
 
@@ -403,7 +399,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;a class=&quot;jektify__brand jektify__brand--white jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
 
-            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2018&amp;nbsp;&lt;/i&gt;
+            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2019&amp;nbsp;&lt;/i&gt;
               &lt;span class=&quot;jektify__button jektify__button--white jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
           &lt;/dt&gt;
 
@@ -431,7 +427,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;a class=&quot;jektify__brand jektify__brand--dark jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
 
-            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2018&amp;nbsp;&lt;/i&gt;
+            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2019&amp;nbsp;&lt;/i&gt;
               &lt;span class=&quot;jektify__button jektify__button--dark jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
           &lt;/dt&gt;
 
@@ -461,7 +457,7 @@ To listen to the full song, open your Spotify and start these musics.
 
 &lt;hr /&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Copyright (c) 2018 William Canin&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Copyright (c) 2019 William Canin&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 01 Feb 2018 05:31:10 -0200</pubDate>
