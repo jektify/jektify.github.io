@@ -200,7 +200,7 @@ You can use CDN of the respective version:
 {% highlight html  %}
 ---
 
-<script src="https://cdn.jsdelivr.net/gh/jektify/jektify-cdn/<VERSION>/jektify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/jektify/jektify-cdn/<VERSION>/js/jektify.min.js"></script>
 </body>
 {% endhighlight %}
 
@@ -222,7 +222,7 @@ If you want to use CDN for CSS, do this:
 
 {% highlight html  %}
 ---
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jektify/jektify-cdn/css/<VERSION>/jektify.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jektify/jektify-cdn/<VERSION>/css/jektify.min.css">
 </head>
 {% endhighlight %}
 
