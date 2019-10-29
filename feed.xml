@@ -6,8 +6,8 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Oct 2019 05:30:16 -0300</pubDate>
-    <lastBuildDate>Tue, 29 Oct 2019 05:30:16 -0300</lastBuildDate>
+    <pubDate>Tue, 29 Oct 2019 13:37:16 -0300</pubDate>
+    <lastBuildDate>Tue, 29 Oct 2019 13:37:16 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -33,9 +33,10 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#importing-javascript&quot; id=&quot;markdown-toc-importing-javascript&quot;&gt;Importing JavaScript&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#importing-with-cdn&quot; id=&quot;markdown-toc-importing-with-cdn&quot;&gt;Importing with CDN:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#importing-javascript-with-cdn&quot; id=&quot;markdown-toc-importing-javascript-with-cdn&quot;&gt;Importing Javascript with CDN:&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#importing-css-using-cdn&quot; id=&quot;markdown-toc-importing-css-using-cdn&quot;&gt;Importing CSS using CDN&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#using&quot; id=&quot;markdown-toc-using&quot;&gt;Using&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#how-does-jektify-work&quot; id=&quot;markdown-toc-how-does-jektify-work&quot;&gt;How does Jektify work?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#tag-jektify&quot; id=&quot;markdown-toc-tag-jektify&quot;&gt;Tag Jektify&lt;/a&gt;&lt;/li&gt;
@@ -192,7 +193,7 @@ Plugin will have operation error.&lt;/p&gt;
   &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Note 2&lt;/code&gt;: Do not forget to load the script Jektify after &lt;a href=&quot;https://jquery.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;JQuery&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 class=&quot;markdown__h2&quot; id=&quot;importing-with-cdn&quot;&gt;Importing with CDN:&lt;/h2&gt;
+&lt;h2 class=&quot;markdown__h2&quot; id=&quot;importing-javascript-with-cdn&quot;&gt;Importing Javascript with CDN:&lt;/h2&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You can use CDN of the respective version:&lt;/p&gt;
 
@@ -204,6 +205,22 @@ Plugin will have operation error.&lt;/p&gt;
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You can see the CDNs of the other [VERSION] in:&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;a href=&quot;https://github.com/jektify/jektify-cdn&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Jektify - CDN Versions&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
+  &lt;p&gt;Note: It is recommended to use the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version is also used.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 class=&quot;markdown__h1&quot; id=&quot;importing-css-using-cdn&quot;&gt;Importing CSS using CDN&lt;/h1&gt;
+
+&lt;p class=&quot;markdown__paragraph&quot;&gt;If you want to use CDN for CSS, do this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.jsdelivr.net/gh/jektify/jektify-cdn/css/&amp;lt;VERSION&amp;gt;/jektify.min.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p class=&quot;markdown__paragraph&quot;&gt;You can see the CDNs of the other [VERSION] in:&lt;/p&gt;
+
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;a href=&quot;https://github.com/jektify/jektify-cdn&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Jektify - CSS Versions&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;Note: It is recommended to use the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version is also used.&lt;/p&gt;
