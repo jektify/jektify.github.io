@@ -6,8 +6,8 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Oct 2019 04:37:24 -0300</pubDate>
-    <lastBuildDate>Tue, 29 Oct 2019 04:37:24 -0300</lastBuildDate>
+    <pubDate>Tue, 29 Oct 2019 05:19:37 -0300</pubDate>
+    <lastBuildDate>Tue, 29 Oct 2019 05:19:37 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -198,7 +198,7 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
 
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.jsdelivr.net/gh/jektify/jektify/cdn/&amp;lt;VERSION&amp;gt;/jektify.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.jsdelivr.net/gh/jektify/jektify-cdn/&amp;lt;VERSION&amp;gt;/jektify.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;You can see the CDNs of the other [VERSION] in:&lt;/p&gt;
@@ -206,7 +206,7 @@ Plugin will have operation error.&lt;/p&gt;
 &lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;a href=&quot;https://github.com/jektify/jektify/tree/master/cdn&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Jektify - CDN Versions&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
-  &lt;p&gt;Note: It is recommended to use the “&lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;” version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the “&lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;” version is also used.&lt;/p&gt;
+  &lt;p&gt;Note: It is recommended to use the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version is also used.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;using&quot;&gt;Using&lt;/h1&gt;
