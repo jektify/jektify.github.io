@@ -4,10 +4,10 @@
     <title>Jektify</title>
     <description>Jektify is a Gem for entering track, playlist, albums and artists in Jekyll templates.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Oct 2019 04:34:15 -0300</pubDate>
-    <lastBuildDate>Tue, 29 Oct 2019 04:34:15 -0300</lastBuildDate>
+    <link>https://jektify.github.io/</link>
+    <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 29 Oct 2019 04:37:24 -0300</pubDate>
+    <lastBuildDate>Tue, 29 Oct 2019 04:37:24 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -166,7 +166,7 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;ATTENTION!&lt;/code&gt; Using Javascript in the Jektify will only be necessary if the Toggle feature is set to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; at line 8(eight) in
- “&lt;a href=&quot;http://localhost:4000/#configuration-file-_configyml&quot; class=&quot;markdown__link&quot;&gt;Configuration file _config.yml&lt;/a&gt;”.
+ “&lt;a href=&quot;https://jektify.github.io/#configuration-file-_configyml&quot; class=&quot;markdown__link&quot;&gt;Configuration file _config.yml&lt;/a&gt;”.
 &lt;strong&gt;Before you begin, you must import the &lt;a href=&quot;https://jquery.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;JQuery&lt;/a&gt; for your project.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -219,7 +219,7 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;See an illustrative picture of how to capture the URI:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;img-fluid d-block mx-auto&quot; src=&quot;http://localhost:4000/assets/images/doc/capture_uri.jpg&quot; alt=&quot;Capture URI&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;img-fluid d-block mx-auto&quot; src=&quot;https://jektify.github.io/assets/images/doc/capture_uri.jpg&quot; alt=&quot;Capture URI&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;It will open a dialog, when open click &lt;code class=&quot;highlighter-rouge&quot;&gt;URI&lt;/code&gt; to copy.&lt;/p&gt;
 
@@ -468,8 +468,8 @@ To listen to the full song, open your Spotify and start these musics.
 
 </description>
         <pubDate>Thu, 01 Feb 2018 05:31:10 -0200</pubDate>
-        <link>http://localhost:4000/documentation/</link>
-        <guid isPermaLink="true">http://localhost:4000/documentation/</guid>
+        <link>https://jektify.github.io/documentation/</link>
+        <guid isPermaLink="true">https://jektify.github.io/documentation/</guid>
         
         
       </item>
