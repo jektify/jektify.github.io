@@ -208,7 +208,7 @@ You can use CDN of the respective version:
 You can see the CDNs of the other [VERSION] in:
 
 {: .markdown__paragraph}
-[Jektify - CDN Versions](https://github.com/jektify/jektify/tree/master/cdn){:target="_blank"}{: .markdown__link}
+[Jektify - CDN Versions](https://github.com/jektify/jektify-cdn){:target="_blank"}{: .markdown__link}
 
 {: .markdown__blockquote .markdown__paragraph}
 > Note: It is recommended to use the "`stable`" version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the "`stable`" version is also used.
