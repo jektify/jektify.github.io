@@ -192,7 +192,7 @@ Do import JavaScript in `_layout/default.html` at the end of
 > `Note 2`: Do not forget to load the script Jektify after [JQuery]{:target="_blank"}{: .markdown__link}.
 
 {: .markdown__h2}
-## Importing with CDN:
+## Importing Javascript with CDN:
 
 {: .markdown__paragraph}
 You can use CDN of the respective version:
@@ -209,6 +209,28 @@ You can see the CDNs of the other [VERSION] in:
 
 {: .markdown__paragraph}
 [Jektify - CDN Versions](https://github.com/jektify/jektify-cdn){:target="_blank"}{: .markdown__link}
+
+{: .markdown__blockquote .markdown__paragraph}
+> Note: It is recommended to use the "`stable`" version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the "`stable`" version is also used.
+
+
+{: .markdown__h1}
+# Importing CSS using CDN
+
+{: .markdown__paragraph}
+If you want to use CDN for CSS, do this:
+
+{% highlight html  %}
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jektify/jektify-cdn/css/<VERSION>/jektify.min.css">
+</head>
+{% endhighlight %}
+
+{: .markdown__paragraph}
+You can see the CDNs of the other [VERSION] in:
+
+{: .markdown__paragraph}
+[Jektify - CSS Versions](https://github.com/jektify/jektify-cdn){:target="_blank"}{: .markdown__link}
 
 {: .markdown__blockquote .markdown__paragraph}
 > Note: It is recommended to use the "`stable`" version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the "`stable`" version is also used.
