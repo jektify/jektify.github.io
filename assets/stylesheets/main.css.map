@@ -12,7 +12,7 @@
 		"_sass/syntax/syntax.scss",
 		"_sass/syntax/_syntax_highlighting.scss",
 		"_sass/syntax/_syntax_highlighting_custom.scss",
-		"_gems/bundle/ruby/2.6.0/gems/jektify-1.0.4/assets/vendor/jektify/sass/_jektify.scss"
+		"_gems/bundle/ruby/2.7.0/gems/jektify-1.0.5/assets/vendor/jektify/sass/_jektify.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n@import\n        \"base\"\n        ,\"includes/includes\"\n        ,\"layouts/layouts\"\n        ,\"syntax/syntax\"\n;\n\n// plugins\n@import \"jektify\";\n\n// This development player\n// @import \"dev/development\";\n",
