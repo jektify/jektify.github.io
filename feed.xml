@@ -6,9 +6,9 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Feb 2020 11:08:44 -0300</pubDate>
-    <lastBuildDate>Sun, 16 Feb 2020 11:08:44 -0300</lastBuildDate>
-    <generator>Jekyll v4.0.0</generator>
+    <pubDate>Sat, 08 May 2021 22:45:35 -0300</pubDate>
+    <lastBuildDate>Sat, 08 May 2021 22:45:35 -0300</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>Documentation</title>
@@ -76,7 +76,7 @@
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;get-jektify&quot;&gt;Get Jektify&lt;/h1&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Add &lt;strong&gt;Jektify&lt;/strong&gt; to your Gemfile and run the command: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Add &lt;strong&gt;Jektify&lt;/strong&gt; to your Gemfile and run the command: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:jekyll_plugins&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jektify&quot;&lt;/span&gt;
@@ -90,7 +90,7 @@
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;setting-up-your-stylesheet-using-jekyll-sass&quot;&gt;Setting up your stylesheet using Jekyll SASS&lt;/h2&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;If you use CSS Jekyll, insert this line in the manifest &lt;code class=&quot;highlighter-rouge&quot;&gt;main.scss&lt;/code&gt; SASS of your project:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;If you use CSS Jekyll, insert this line in the manifest &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main.scss&lt;/code&gt; SASS of your project:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;jektify&quot;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -104,7 +104,7 @@
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;configuration-file-_configyml&quot;&gt;Configuration file “_config.yml”&lt;/h2&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Now, you need to configure the file &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; your theme Jekyll.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Now, you need to configure the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; your theme Jekyll.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;The following lines should be inserted:&lt;/p&gt;
 
@@ -134,63 +134,63 @@
 
 &lt;h3 class=&quot;markdown__h3&quot; id=&quot;what-does-each-option-do&quot;&gt;What does each option do?&lt;/h3&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 2 ]&lt;/code&gt; Report for Jekyll use &lt;strong&gt;Jektify&lt;/strong&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 2 ]&lt;/code&gt; Report for Jekyll use &lt;strong&gt;Jektify&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 5 ]&lt;/code&gt; - Option: [ true / false ] Enables or disables the plugin for all site.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 5 ]&lt;/code&gt; - Option: [ true / false ] Enables or disables the plugin for all site.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 6 ]&lt;/code&gt; - Option: [ true / false ]  In this line you define whether you want the “Jektify” let the music box in open or closed mode in page. Remember that if the “&lt;code class=&quot;highlighter-rouge&quot;&gt;toggle =&amp;gt; enable&lt;/code&gt;” option is set to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;, any value in this option will have no implication.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 6 ]&lt;/code&gt; - Option: [ true / false ]  In this line you define whether you want the “Jektify” let the music box in open or closed mode in page. Remember that if the “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;toggle =&amp;gt; enable&lt;/code&gt;” option is set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;, any value in this option will have no implication.&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;If a different value of these two themes is inserted, the Jekyll Spotify
 Plugin will have operation error.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 8 ]&lt;/code&gt; - Option [ true / false ] This feature enables you to enable or disable the Toggle function of the Jektify. If it is set to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; a button in the upper right corner will exist for an action to scroll and unroll the window. If the value is equal to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;, the button will not exist, only open window will be created, this causes the javascript of Jektify  not to be generated for the user, because the scrolling and unwinding depends on the script.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 8 ]&lt;/code&gt; - Option [ true / false ] This feature enables you to enable or disable the Toggle function of the Jektify. If it is set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; a button in the upper right corner will exist for an action to scroll and unroll the window. If the value is equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;, the button will not exist, only open window will be created, this causes the javascript of Jektify  not to be generated for the user, because the scrolling and unwinding depends on the script.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 10 ]&lt;/code&gt; - Option [ user Spotify ] Put your Spotify user on this line to create a redirect button in the Spotify online player. If &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt; are empty, the Jektify will not render this option. So, if you do not want to use it, leave the values with nothing.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 10 ]&lt;/code&gt; - Option [ user Spotify ] Put your Spotify user on this line to create a redirect button in the Spotify online player. If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text&lt;/code&gt; are empty, the Jektify will not render this option. So, if you do not want to use it, leave the values with nothing.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 11 ]&lt;/code&gt; - Option [ text ] Here is the custom text that the redirect button will have. Put a very attractive and short.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 11 ]&lt;/code&gt; - Option [ text ] Here is the custom text that the redirect button will have. Put a very attractive and short.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 13 ]&lt;/code&gt; Option [ true / false ] This line is very important! In it you will define using the build SASS Jekyll or other compilation of SASS, as the Gulp. If you use the Jekyll, let &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;. If you do not use SASS of Jekyll leaves to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 13 ]&lt;/code&gt; Option [ true / false ] This line is very important! In it you will define using the build SASS Jekyll or other compilation of SASS, as the Gulp. If you use the Jekyll, let &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;. If you do not use SASS of Jekyll leaves to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 15 ]&lt;/code&gt; Option [ path ] If the line &lt;code class=&quot;highlighter-rouge&quot;&gt;13&lt;/code&gt; is&lt;code class=&quot;highlighter-rouge&quot;&gt; false&lt;/code&gt;, you should inform the way the vendor folder of your SASS files. For example: If you store your SASS files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;src/sass/vendor&lt;/code&gt;, then that is the way you have to put in the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;dir&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 15 ]&lt;/code&gt; Option [ path ] If the line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;13&lt;/code&gt; is&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; false&lt;/code&gt;, you should inform the way the vendor folder of your SASS files. For example: If you store your SASS files in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src/sass/vendor&lt;/code&gt;, then that is the way you have to put in the variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dir&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;After setting the path and build the project, a folder will be created to export the SASS of Jektify, in the path of the &lt;code class=&quot;highlighter-rouge&quot;&gt;dir&lt;/code&gt; . With this, you must load the exported SASS in your manifest (&lt;code class=&quot;highlighter-rouge&quot;&gt;main.scss&lt;/code&gt;). For example:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;After setting the path and build the project, a folder will be created to export the SASS of Jektify, in the path of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dir&lt;/code&gt; . With this, you must load the exported SASS in your manifest (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main.scss&lt;/code&gt;). For example:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;{way/to/your/SASS/vendor}/jektify/jektify&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[ Line 17 and 20 ]&lt;/code&gt; - Option: [ true / false ]  If you want a title or description, leave to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;. Otherwise, leave as &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[ Line 17 and 20 ]&lt;/code&gt; - Option: [ true / false ]  If you want a title or description, leave to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;. Otherwise, leave as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[ Line 18 and 21 ]&lt;/code&gt;  If the line 17 (or line 20) is in the &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;, enter your title (or description) in variable &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;. So if you want a title and content inside the music box…use true.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[ Line 18 and 21 ]&lt;/code&gt;  If the line 17 (or line 20) is in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;, enter your title (or description) in variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text&lt;/code&gt;. So if you want a title and content inside the music box…use true.&lt;/p&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;importing-javascript&quot;&gt;Importing JavaScript&lt;/h1&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
-  &lt;p&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;ATTENTION!&lt;/code&gt; Using Javascript in the Jektify will only be necessary if the Toggle feature is set to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; at line 8(eight) in
+  &lt;p&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;ATTENTION!&lt;/code&gt; Using Javascript in the Jektify will only be necessary if the Toggle feature is set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; at line 8(eight) in
  “&lt;a href=&quot;https://jektify.github.io/#configuration-file-_configyml&quot; class=&quot;markdown__link&quot;&gt;Configuration file _config.yml&lt;/a&gt;”.
 &lt;strong&gt;Before you begin, you must import the &lt;a href=&quot;https://jquery.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;JQuery&lt;/a&gt; for your project.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;After setting the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file and imported the SASS of &lt;strong&gt;Jektify&lt;/strong&gt;, you must import the JavaScript &lt;strong&gt;Jektify&lt;/strong&gt; for HTML. The &lt;strong&gt;Jektify&lt;/strong&gt; copy the Javascript to the folder of the compiled site &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;After setting the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file and imported the SASS of &lt;strong&gt;Jektify&lt;/strong&gt;, you must import the JavaScript &lt;strong&gt;Jektify&lt;/strong&gt; for HTML. The &lt;strong&gt;Jektify&lt;/strong&gt; copy the Javascript to the folder of the compiled site &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;markdown__code highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;assets/vendor/jektify/js/jektify.min.js
+&lt;div class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;assets/vendor/jektify/js/jektify.min.js
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Do import JavaScript in &lt;code class=&quot;highlighter-rouge&quot;&gt;_layout/default.html&lt;/code&gt; at the end of
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Do import JavaScript in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layout/default.html&lt;/code&gt; at the end of
 &amp;lt;/ body&amp;gt;, like this:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;...
 { % if site.jektify.enable == true and site.jektify.toggle.enable == true % }
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{ { &quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assets&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;vendor&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;prepend:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;baseurl&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{ { &quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assets&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;vendor&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jektify.min.js&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;prepend:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;site.baseurl&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;}&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 { % endif % }
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;markdown__paragraph markdown__blockquote&quot;&gt;
-  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Note 1&lt;/code&gt;: Do not leave space between &lt;code class=&quot;highlighter-rouge&quot;&gt;{ {&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;} }&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;{ %&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;% }&lt;/code&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Note 1&lt;/code&gt;: Do not leave space between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{ {&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;} }&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{ %&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;% }&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote class=&quot;markdown__paragraph markdown__blockquote&quot;&gt;
-  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Note 2&lt;/code&gt;: Do not forget to load the script Jektify after &lt;a href=&quot;https://jquery.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;JQuery&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Note 2&lt;/code&gt;: Do not forget to load the script Jektify after &lt;a href=&quot;https://jquery.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;JQuery&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;importing-javascript-with-cdn&quot;&gt;Importing Javascript with CDN:&lt;/h2&gt;
@@ -207,7 +207,7 @@ Plugin will have operation error.&lt;/p&gt;
 &lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;a href=&quot;https://github.com/jektify/jektify-cdn&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Jektify - CDN Versions&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
-  &lt;p&gt;Note: It is recommended to use the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version is also used.&lt;/p&gt;
+  &lt;p&gt;Note: It is recommended to use the “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version is also used.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;importing-css-using-cdn&quot;&gt;Importing CSS using CDN&lt;/h1&gt;
@@ -223,7 +223,7 @@ Plugin will have operation error.&lt;/p&gt;
 &lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;a href=&quot;https://github.com/jektify/jektify-cdn&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Jektify - CSS Versions&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
-  &lt;p&gt;Note: It is recommended to use the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the “&lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version is also used.&lt;/p&gt;
+  &lt;p&gt;Note: It is recommended to use the “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version. In case of error, use the version according to Jektify. If you do not have the Jektify version on CDN, the “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stable&lt;/code&gt;” version is also used.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;using&quot;&gt;Using&lt;/h1&gt;
@@ -238,14 +238,14 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;img-fluid d-block mx-auto&quot; src=&quot;https://jektify.github.io/assets/images/doc/capture_uri.jpg&quot; alt=&quot;Capture URI&quot; /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;It will open a dialog, when open click &lt;code class=&quot;highlighter-rouge&quot;&gt;URI&lt;/code&gt; to copy.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;It will open a dialog, when open click &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;URI&lt;/code&gt; to copy.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;What you will get looks like this:&lt;/p&gt;
 
-&lt;div class=&quot;markdown__code highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spotify:track:08mG3Y1vljYA6bvDt4Wqkj
+&lt;div class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spotify:track:08mG3Y1vljYA6bvDt4Wqkj
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;The &lt;strong&gt;Jektify&lt;/strong&gt; will use this URI, the only difference being that instead of being &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt; will be &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;. See below how it works.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;The &lt;strong&gt;Jektify&lt;/strong&gt; will use this URI, the only difference being that instead of being &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:&lt;/code&gt; will be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt;. See below how it works.&lt;/p&gt;
 
 &lt;h3 class=&quot;markdown__h3&quot; id=&quot;tag-jektify&quot;&gt;Tag Jektify&lt;/h3&gt;
 
@@ -259,23 +259,23 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;Note that there are three (4) parameters, all separated by slash. Let us know what each one does:&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[user]&lt;/code&gt;  Option [ spotify / your_user ]&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[user]&lt;/code&gt;  Option [ spotify / your_user ]&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;By default it is &lt;code class=&quot;highlighter-rouge&quot;&gt;spotify&lt;/code&gt;. Will only change if you use &lt;code class=&quot;highlighter-rouge&quot;&gt;playlist&lt;/code&gt; in the second parameter (type), which will have to inform the user of the playlist.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;By default it is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spotify&lt;/code&gt;. Will only change if you use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;playlist&lt;/code&gt; in the second parameter (type), which will have to inform the user of the playlist.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[type]&lt;/code&gt; Option [ track / album / playlist / artist ]&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[type]&lt;/code&gt; Option [ track / album / playlist / artist ]&lt;/p&gt;
 
 &lt;ul class=&quot;markdown__list&quot;&gt;
   &lt;li&gt;This is the parameter with more options, it will inform you, that the ID &lt;strong&gt;Jektify&lt;/strong&gt; will insert, if a track, album, playlist or artist.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[id]&lt;/code&gt; Option [ id ]&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[id]&lt;/code&gt; Option [ id ]&lt;/p&gt;
 
 &lt;ul class=&quot;markdown__list&quot;&gt;
   &lt;li&gt;Here is the track ID, album, playlist, artist constituted by an extension number.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;markdown__code highlighter-rouge&quot;&gt;[theme]&lt;/code&gt; Option [ white / dark ]&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[theme]&lt;/code&gt; Option [ white / dark ]&lt;/p&gt;
 
 &lt;ul class=&quot;markdown__list&quot;&gt;
   &lt;li&gt;Here you put a theme, Spotify makes available 2 (two) at the moment, the “dark” and the “light”.&lt;/li&gt;
@@ -301,9 +301,9 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;strong&gt;Jektify&lt;/strong&gt; already has a suitable customization for sensitive layouts, but still leaves a case of personalization itself, the user chooses the themes at hand and the way it fits into your page template.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;To customize to your liking, use the class &lt;code class=&quot;highlighter-rouge&quot;&gt;.jektify&lt;/code&gt; in your stylesheets (SASS). Use your browser’s developer tool. E.g: Google Dev Tools, to know which classes to change.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;To customize to your liking, use the class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.jektify&lt;/code&gt; in your stylesheets (SASS). Use your browser’s developer tool. E.g: Google Dev Tools, to know which classes to change.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;The class structure &lt;code class=&quot;highlighter-rouge&quot;&gt;.jektify&lt;/code&gt; this is:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;The class structure &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.jektify&lt;/code&gt; this is:&lt;/p&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;NOTE: You should put CSS properties inside the subclass “–custom”.&lt;/p&gt;
@@ -361,7 +361,7 @@ Plugin will have operation error.&lt;/p&gt;
 
             &lt;a class=&quot;jektify__brand jektify__brand--white jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
 
-            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2020&amp;nbsp;&lt;/i&gt;
+            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2021&amp;nbsp;&lt;/i&gt;
               &lt;span class=&quot;jektify__button jektify__button--white jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
           &lt;/dt&gt;
 
@@ -391,7 +391,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;a class=&quot;jektify__brand jektify__brand--dark jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
 
-            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2020&amp;nbsp;&lt;/i&gt;
+            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2021&amp;nbsp;&lt;/i&gt;
               &lt;span class=&quot;jektify__button jektify__button--dark jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
           &lt;/dt&gt;
 
@@ -421,7 +421,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;a class=&quot;jektify__brand jektify__brand--white jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
 
-            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2020&amp;nbsp;&lt;/i&gt;
+            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2021&amp;nbsp;&lt;/i&gt;
               &lt;span class=&quot;jektify__button jektify__button--white jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
           &lt;/dt&gt;
 
@@ -451,7 +451,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;a class=&quot;jektify__brand jektify__brand--dark jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
 
-            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2020&amp;nbsp;&lt;/i&gt;
+            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2021&amp;nbsp;&lt;/i&gt;
               &lt;span class=&quot;jektify__button jektify__button--dark jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
           &lt;/dt&gt;
 
@@ -489,7 +489,7 @@ To listen to the full song, open your Spotify and start these musics.
 
 &lt;hr /&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Copyright (c) 2020 William Canin&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Copyright (c) 2021 William Canin&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 01 Feb 2018 05:31:10 -0200</pubDate>
