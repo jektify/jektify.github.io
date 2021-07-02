@@ -6,8 +6,8 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 May 2021 22:45:35 -0300</pubDate>
-    <lastBuildDate>Sat, 08 May 2021 22:45:35 -0300</lastBuildDate>
+    <pubDate>Thu, 01 Jul 2021 22:53:52 -0300</pubDate>
+    <lastBuildDate>Thu, 01 Jul 2021 22:53:52 -0300</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -42,6 +42,7 @@
       &lt;li&gt;&lt;a href=&quot;#tag-jektify&quot; id=&quot;markdown-toc-tag-jektify&quot;&gt;Tag Jektify&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#you-dont-have-spotify-player-installed-on-your-machine&quot; id=&quot;markdown-toc-you-dont-have-spotify-player-installed-on-your-machine&quot;&gt;You don’t have Spotify player installed on your machine?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#customizable&quot; id=&quot;markdown-toc-customizable&quot;&gt;Customizable&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#sass&quot; id=&quot;markdown-toc-sass&quot;&gt;SASS&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
@@ -232,9 +233,9 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;The &lt;strong&gt;Jektify&lt;/strong&gt; capture songs, playlists and albums from artists in the Spotify, by URI code distributed by Spotify. You can do this by the Spotify application on your computer or through Spotify in the browser.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;First you have to get the URL of the song, album, playlist, of artist you want. An easy way to know how to do this is in the &lt;a href=&quot;https://www.spotify.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Spotify&lt;/a&gt; of support documentation, &lt;a href=&quot;https://developer.spotify.com/technologies/widgets/spotify-play-button/#generator&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;First you have to get the URL of the song, album, playlist, of artist you want. An easy way to know how to do this is in the &lt;a href=&quot;https://www.spotify.com&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Spotify&lt;/a&gt; of support documentation, &lt;a href=&quot;https://developer.spotify.com/documentation/widgets/generate/embed/&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;See an illustrative picture of how to capture the URI:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;See an illustrative picture of how to capture the URI in Spotify Player:&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;img-fluid d-block mx-auto&quot; src=&quot;https://jektify.github.io/assets/images/doc/capture_uri.jpg&quot; alt=&quot;Capture URI&quot; /&gt;&lt;/p&gt;
 
@@ -251,17 +252,13 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;The &lt;strong&gt;Jektify&lt;/strong&gt; it works with the following tags:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;Note: There can be no spaces between the keys. This here for the &lt;strong&gt;Jektify&lt;/strong&gt; does not come into work.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Note that there are three (4) parameters, all separated by slash. Let us know what each one does:&lt;/p&gt;
-
-&lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[user]&lt;/code&gt;  Option [ spotify / your_user ]&lt;/p&gt;
-
-&lt;p class=&quot;markdown__paragraph&quot;&gt;By default it is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spotify&lt;/code&gt;. Will only change if you use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;playlist&lt;/code&gt; in the second parameter (type), which will have to inform the user of the playlist.&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Note that there are three (3) parameters, all separated by slash. Let us know what each one does:&lt;/p&gt;
 
 &lt;p class=&quot;markdown__paragraph&quot;&gt;&lt;code class=&quot;language-plaintext markdown__code highlighter-rouge&quot;&gt;[type]&lt;/code&gt; Option [ track / album / playlist / artist ]&lt;/p&gt;
 
@@ -285,11 +282,33 @@ Plugin will have operation error.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;track&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;62&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qsgMnY4wg8nE5qjyOdWO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;williamcanin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;playlist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;48&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brJJZdVifY79QAFmEImq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;playlist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;48&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brJJZdVifY79QAFmEImq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;artist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;711&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MCceyCBcFnzjGY4Q7Un&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;album&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;OwvO40ahugJE5PH4TjqTg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
+  &lt;p&gt;Note: Do not leave spaces between the keys.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 class=&quot;markdown__h1&quot; id=&quot;you-dont-have-spotify-player-installed-on-your-machine&quot;&gt;You don’t have Spotify player installed on your machine?&lt;/h1&gt;
+
+&lt;p class=&quot;markdown__paragraph&quot;&gt;In this case you can use the &lt;a href=&quot;https://open.spotify.com/&quot; target=&quot;_blank&quot; class=&quot;markdown__link&quot;&gt;Spotify Web&lt;/a&gt;. The method is a little different but not difficult. You will have to copy the &lt;strong&gt;link&lt;/strong&gt; of the song, artist or playlist like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-fluid d-block mx-auto&quot; src=&quot;/assets/images/doc/capture_link.jpg&quot; alt=&quot;Capture Link&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;markdown__paragraph&quot;&gt;You have something like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj?si=709400b764384c6b&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p class=&quot;markdown__paragraph&quot;&gt;What we need in this link is just the following excerpt:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;track/08mG3Y1vljYA6bvDt4Wqkj&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p class=&quot;markdown__paragraph&quot;&gt;The category, which can be track, playlist, or artist, plus the ID. Formatting our URL to &lt;strong&gt;Jektify&lt;/strong&gt; would look like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% jektify &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;track&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mG3Y1vljYA6bvDt4Wqkj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;Note: Do not leave spaces between the keys.&lt;/p&gt;
@@ -407,7 +426,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;div class=&quot;jektify__tracklist jektify__tracklist--dark jektify__tracklist--custom&quot;&gt;
               &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--dark 
-                jektify__track--custom&quot; src=&quot;https://embed.spotify.com/?uri=spotify:user:williamcanin:playlist:48brJJZdVifY79QAFmEImq&amp;amp;theme=dark&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+                jektify__track--custom&quot; src=&quot;https://embed.spotify.com/?uri=spotify:user:spotify:playlist:48brJJZdVifY79QAFmEImq&amp;amp;theme=dark&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
               &lt;/iframe&gt;
             &lt;/div&gt;
           &lt;/dd&gt;
