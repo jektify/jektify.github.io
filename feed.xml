@@ -6,8 +6,8 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jul 2021 22:53:52 -0300</pubDate>
-    <lastBuildDate>Thu, 01 Jul 2021 22:53:52 -0300</lastBuildDate>
+    <pubDate>Thu, 01 Jul 2021 23:03:05 -0300</pubDate>
+    <lastBuildDate>Thu, 01 Jul 2021 23:03:05 -0300</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -396,7 +396,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;div class=&quot;jektify__tracklist jektify__tracklist--white jektify__tracklist--custom&quot;&gt;
               &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--white 
-                jektify__track--custom&quot; src=&quot;https://embed.spotify.com/?uri=spotify:track:0C80GCp0mMuBzLf3EAXqxv&amp;amp;theme=white&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+                jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/track/0C80GCp0mMuBzLf3EAXqxv?theme=1&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
               &lt;/iframe&gt;
             &lt;/div&gt;
           &lt;/dd&gt;
@@ -426,7 +426,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;div class=&quot;jektify__tracklist jektify__tracklist--dark jektify__tracklist--custom&quot;&gt;
               &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--dark 
-                jektify__track--custom&quot; src=&quot;https://embed.spotify.com/?uri=spotify:user:spotify:playlist:48brJJZdVifY79QAFmEImq&amp;amp;theme=dark&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+                jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/playlist/48brJJZdVifY79QAFmEImq?theme=0&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
               &lt;/iframe&gt;
             &lt;/div&gt;
           &lt;/dd&gt;
@@ -456,7 +456,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;div class=&quot;jektify__tracklist jektify__tracklist--white jektify__tracklist--custom&quot;&gt;
               &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--white 
-                jektify__track--custom&quot; src=&quot;https://embed.spotify.com/?uri=spotify:artist:711MCceyCBcFnzjGY4Q7Un&amp;amp;theme=white&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+                jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/artist/711MCceyCBcFnzjGY4Q7Un?theme=1&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
               &lt;/iframe&gt;
             &lt;/div&gt;
           &lt;/dd&gt;
@@ -486,7 +486,7 @@ To listen to the full song, open your Spotify and start these musics.
 
             &lt;div class=&quot;jektify__tracklist jektify__tracklist--dark jektify__tracklist--custom&quot;&gt;
               &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--dark 
-                jektify__track--custom&quot; src=&quot;https://embed.spotify.com/?uri=spotify:album:6OwvO40ahugJE5PH4TjqTg&amp;amp;theme=dark&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+                jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/album/6OwvO40ahugJE5PH4TjqTg?theme=0&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
               &lt;/iframe&gt;
             &lt;/div&gt;
           &lt;/dd&gt;
