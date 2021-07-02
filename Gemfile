@@ -8,5 +8,5 @@ gem "webrick"
 gem "jekyll"
 
 group :jekyll_plugins do
-  gem "jektify", "~> 1.0.6"
+  gem "jektify", "~> 1.0.7"
 end
