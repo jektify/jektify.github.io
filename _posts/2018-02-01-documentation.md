@@ -245,10 +245,10 @@ You can see the CDNs of the other [VERSION] in:
 The **Jektify** capture songs, playlists and albums from artists in the Spotify, by URI code distributed by Spotify. You can do this by the Spotify application on your computer or through Spotify in the browser.
 
 {: .markdown__paragraph}
-First you have to get the URL of the song, album, playlist, of artist you want. An easy way to know how to do this is in the [Spotify]{:target="_blank"}{: .markdown__link} of support documentation, [here](https://developer.spotify.com/technologies/widgets/spotify-play-button/#generator){:target="_blank"}{: .markdown__link}.
+First you have to get the URL of the song, album, playlist, of artist you want. An easy way to know how to do this is in the [Spotify]{:target="_blank"}{: .markdown__link} of support documentation, [here](https://developer.spotify.com/documentation/widgets/generate/embed/){:target="_blank"}{: .markdown__link}.
 
 {: .markdown__paragraph}
-See an illustrative picture of how to capture the URI:
+See an illustrative picture of how to capture the URI in Spotify Player:
 
 <img class="img-fluid d-block mx-auto" src="{{ "/assets/images/doc/capture_uri.jpg" | prepend: site.baseurl | prepend: site.url }}" alt="Capture URI">
 
@@ -273,20 +273,14 @@ The **Jektify** will use this URI, the only difference being that instead of bei
 The **Jektify** it works with the following tags:
 
 {% highlight ruby  %}
-{ % jektify [user]/[type]/[id]/[theme] % }
+{ % jektify spotify/[type]/[id]/[theme] % }
 {% endhighlight %}
 
 {: .markdown__blockquote .markdown__paragraph}
 > Note: There can be no spaces between the keys. This here for the **Jektify** does not come into work.
 
 {: .markdown__paragraph}
-Note that there are three (4) parameters, all separated by slash. Let us know what each one does:
-
-{: .markdown__paragraph}
-`[user]`{: .markdown__code}  Option [ spotify / your_user ]  
-
-{: .markdown__paragraph}
-By default it is `spotify`. Will only change if you use `playlist` in the second parameter (type), which will have to inform the user of the playlist.
+Note that there are three (3) parameters, all separated by slash. Let us know what each one does:
 
 {: .markdown__paragraph}
 `[type]`{: .markdown__code} Option [ track / album / playlist / artist ]
@@ -312,7 +306,7 @@ By default it is `spotify`. Will only change if you use `playlist` in the second
 {% highlight ruby  %}
 { % jektify spotify/track/62qsgMnY4wg8nE5qjyOdWO/dark % }
 
-{ % jektify williamcanin/playlist/48brJJZdVifY79QAFmEImq/light % }
+{ % jektify spotify/playlist/48brJJZdVifY79QAFmEImq/light % }
 
 { % jektify spotify/artist/711MCceyCBcFnzjGY4Q7Un/dark % }
 
@@ -321,6 +315,45 @@ By default it is `spotify`. Will only change if you use `playlist` in the second
 
 {: .markdown__blockquote .markdown__paragraph}
 > Note: Do not leave spaces between the keys.
+
+
+{: .markdown__h1}
+# You don't have Spotify player installed on your machine?
+
+{: .markdown__paragraph}
+In this case you can use the [Spotify Web](https://open.spotify.com/){:target="_blank"}{: .markdown__link}. The method is a little different but not difficult. You will have to copy the **link** of the song, artist or playlist like this:
+
+<img class="img-fluid d-block mx-auto" src="{{ "/assets/images/doc/capture_link.jpg" | prepend: site.baseurl }}" alt="Capture Link">
+
+
+{: .markdown__paragraph}
+You have something like this:
+
+{% highlight html  %}
+https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj?si=709400b764384c6b
+{% endhighlight %}
+
+
+{: .markdown__paragraph}
+What we need in this link is just the following excerpt:
+
+
+{% highlight html  %}
+track/08mG3Y1vljYA6bvDt4Wqkj
+{% endhighlight %}
+
+
+{: .markdown__paragraph}
+The category, which can be track, playlist, or artist, plus the ID. Formatting our URL to **Jektify** would look like this:
+
+
+{% highlight ruby  %}
+{ % jektify spotify/track/08mG3Y1vljYA6bvDt4Wqkj/dark % }
+{% endhighlight %}
+
+{: .markdown__blockquote .markdown__paragraph}
+> Note: Do not leave spaces between the keys.
+
 
 {: .markdown__h1}
 # Customizable
@@ -398,7 +431,7 @@ Here is examples of how the "Jektify" will behave in your page:
 {: .markdown__h2}
 ## Playlist
 
-{% jektify williamcanin/playlist/48brJJZdVifY79QAFmEImq/dark %}
+{% jektify spotify/playlist/48brJJZdVifY79QAFmEImq/dark %}
 
 {: .markdown__h2}
 ## Artist
