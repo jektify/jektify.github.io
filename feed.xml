@@ -6,9 +6,9 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jul 2021 23:03:05 -0300</pubDate>
-    <lastBuildDate>Thu, 01 Jul 2021 23:03:05 -0300</lastBuildDate>
-    <generator>Jekyll v4.2.0</generator>
+    <pubDate>Fri, 19 Sep 2025 22:50:56 -0300</pubDate>
+    <lastBuildDate>Fri, 19 Sep 2025 22:50:56 -0300</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
     
       <item>
         <title>Documentation</title>
@@ -113,22 +113,22 @@
   &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jektify&lt;/span&gt;
 
 &lt;span class=&quot;na&quot;&gt;jektify&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;  
+    &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;  
   &lt;span class=&quot;na&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;williamcanin&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;See me no Spotify&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;sass&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
       &lt;span class=&quot;na&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;way/to/your/SASS&quot;&lt;/span&gt;   
   &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Jektify&quot;&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
       &lt;span class=&quot;s&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.&lt;/span&gt;
       &lt;span class=&quot;s&quot;&gt;To listen to the full song, open your Spotify and start these musics.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -375,122 +375,106 @@ Plugin will have operation error.&lt;/p&gt;
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;track&quot;&gt;Track&lt;/h2&gt;
 
 &lt;dl class=&quot;jektify jektify--white jektify--custom&quot;&gt;
+  &lt;dt class=&quot;jektify__header jektify__header--white jektify__header--custom&quot;&gt;
+    &lt;a class=&quot;jektify__brand jektify__brand--white jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
+    &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2025&amp;nbsp;&lt;/i&gt;
+    &lt;span class=&quot;jektify__button jektify__button--white jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
+  &lt;/dt&gt;
+  &lt;dd class=&quot;jektify__body jektify__body--white jektify__body--custom&quot; style=&quot;display: none&quot;&gt;
+    &lt;div class=&quot;jektify__user&quot;&gt;
+  &lt;a href=&quot;https://open.spotify.com/user/williamcanin&quot; target=&quot;_blank&quot; class=&quot;jektify__user-link jektify__user-link--white jektify__user-link--custom&quot; title=&quot;See me no Spotify&quot;&gt;
+    &lt;span class=&quot;jektify__user-text jektify__user-text--white jektify__user-text--custom&quot;&gt;See me no Spotify&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
 
-          &lt;dt class=&quot;jektify__header jektify__header--white jektify__header--custom&quot;&gt;
-
-            &lt;a class=&quot;jektify__brand jektify__brand--white jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
-
-            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2021&amp;nbsp;&lt;/i&gt;
-              &lt;span class=&quot;jektify__button jektify__button--white jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
-          &lt;/dt&gt;
-
-          &lt;dd class=&quot;jektify__body jektify__body--white jektify__body--custom&quot; style=&quot;display: none&quot;&gt;
-
-            &lt;div class=&quot;jektify__user&quot;&gt;&lt;a href=&quot;https://open.spotify.com/user/williamcanin&quot; target=&quot;_blank&quot; class=&quot;jektify__user-link jektify__user-link--white jektify__user-link--custom&quot; title=&quot;See me no Spotify&quot;&gt;&lt;span class=&quot;jektify__user-text jektify__user-text--white jektify__user-text--custom&quot;&gt;See me no Spotify&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-
-            &lt;h1 class=&quot;jektify__title jektify__title--white jektify__user--white jektify__title--custom&quot; style=&quot;display: block;&quot;&gt;Jektify&lt;/h1&gt;
-
-            &lt;p class=&quot;jektify__description jektify__description--white jektify__description--custom&quot; style=&quot;display: block;&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.
+    &lt;h1 class=&quot;jektify__title jektify__title--white jektify__title--custom&quot; style=&quot;display: block;&quot;&gt;Jektify&lt;/h1&gt;
+    &lt;p class=&quot;jektify__description jektify__description--white jektify__description--custom&quot; style=&quot;display: block;&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.
 To listen to the full song, open your Spotify and start these musics.
 &lt;/p&gt;
-
-            &lt;div class=&quot;jektify__tracklist jektify__tracklist--white jektify__tracklist--custom&quot;&gt;
-              &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--white 
-                jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/track/0C80GCp0mMuBzLf3EAXqxv?theme=1&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
-              &lt;/iframe&gt;
-            &lt;/div&gt;
-          &lt;/dd&gt;
-        &lt;/dl&gt;
+    &lt;div class=&quot;jektify__tracklist jektify__tracklist--white jektify__tracklist--custom&quot;&gt;
+      &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--white jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/track/0C80GCp0mMuBzLf3EAXqxv?theme=1&quot; width=&quot;100%&quot; height=&quot;80&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+      &lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;playlist&quot;&gt;Playlist&lt;/h2&gt;
 
 &lt;dl class=&quot;jektify jektify--dark jektify--custom&quot;&gt;
+  &lt;dt class=&quot;jektify__header jektify__header--dark jektify__header--custom&quot;&gt;
+    &lt;a class=&quot;jektify__brand jektify__brand--dark jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
+    &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2025&amp;nbsp;&lt;/i&gt;
+    &lt;span class=&quot;jektify__button jektify__button--dark jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
+  &lt;/dt&gt;
+  &lt;dd class=&quot;jektify__body jektify__body--dark jektify__body--custom&quot; style=&quot;display: none&quot;&gt;
+    &lt;div class=&quot;jektify__user&quot;&gt;
+  &lt;a href=&quot;https://open.spotify.com/user/williamcanin&quot; target=&quot;_blank&quot; class=&quot;jektify__user-link jektify__user-link--dark jektify__user-link--custom&quot; title=&quot;See me no Spotify&quot;&gt;
+    &lt;span class=&quot;jektify__user-text jektify__user-text--dark jektify__user-text--custom&quot;&gt;See me no Spotify&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
 
-          &lt;dt class=&quot;jektify__header jektify__header--dark jektify__header--custom&quot;&gt;
-
-            &lt;a class=&quot;jektify__brand jektify__brand--dark jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
-
-            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2021&amp;nbsp;&lt;/i&gt;
-              &lt;span class=&quot;jektify__button jektify__button--dark jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
-          &lt;/dt&gt;
-
-          &lt;dd class=&quot;jektify__body jektify__body--dark jektify__body--custom&quot; style=&quot;display: none&quot;&gt;
-
-            &lt;div class=&quot;jektify__user&quot;&gt;&lt;a href=&quot;https://open.spotify.com/user/williamcanin&quot; target=&quot;_blank&quot; class=&quot;jektify__user-link jektify__user-link--dark jektify__user-link--custom&quot; title=&quot;See me no Spotify&quot;&gt;&lt;span class=&quot;jektify__user-text jektify__user-text--dark jektify__user-text--custom&quot;&gt;See me no Spotify&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-
-            &lt;h1 class=&quot;jektify__title jektify__title--dark jektify__user--dark jektify__title--custom&quot; style=&quot;display: block;&quot;&gt;Jektify&lt;/h1&gt;
-
-            &lt;p class=&quot;jektify__description jektify__description--dark jektify__description--custom&quot; style=&quot;display: block;&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.
+    &lt;h1 class=&quot;jektify__title jektify__title--dark jektify__title--custom&quot; style=&quot;display: block;&quot;&gt;Jektify&lt;/h1&gt;
+    &lt;p class=&quot;jektify__description jektify__description--dark jektify__description--custom&quot; style=&quot;display: block;&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.
 To listen to the full song, open your Spotify and start these musics.
 &lt;/p&gt;
-
-            &lt;div class=&quot;jektify__tracklist jektify__tracklist--dark jektify__tracklist--custom&quot;&gt;
-              &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--dark 
-                jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/playlist/48brJJZdVifY79QAFmEImq?theme=0&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
-              &lt;/iframe&gt;
-            &lt;/div&gt;
-          &lt;/dd&gt;
-        &lt;/dl&gt;
+    &lt;div class=&quot;jektify__tracklist jektify__tracklist--dark jektify__tracklist--custom&quot;&gt;
+      &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--dark jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/playlist/48brJJZdVifY79QAFmEImq?theme=0&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+      &lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;artist&quot;&gt;Artist&lt;/h2&gt;
 
 &lt;dl class=&quot;jektify jektify--white jektify--custom&quot;&gt;
+  &lt;dt class=&quot;jektify__header jektify__header--white jektify__header--custom&quot;&gt;
+    &lt;a class=&quot;jektify__brand jektify__brand--white jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
+    &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2025&amp;nbsp;&lt;/i&gt;
+    &lt;span class=&quot;jektify__button jektify__button--white jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
+  &lt;/dt&gt;
+  &lt;dd class=&quot;jektify__body jektify__body--white jektify__body--custom&quot; style=&quot;display: none&quot;&gt;
+    &lt;div class=&quot;jektify__user&quot;&gt;
+  &lt;a href=&quot;https://open.spotify.com/user/williamcanin&quot; target=&quot;_blank&quot; class=&quot;jektify__user-link jektify__user-link--white jektify__user-link--custom&quot; title=&quot;See me no Spotify&quot;&gt;
+    &lt;span class=&quot;jektify__user-text jektify__user-text--white jektify__user-text--custom&quot;&gt;See me no Spotify&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
 
-          &lt;dt class=&quot;jektify__header jektify__header--white jektify__header--custom&quot;&gt;
-
-            &lt;a class=&quot;jektify__brand jektify__brand--white jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
-
-            &lt;i class=&quot;jektify__year jektify__year--white jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2021&amp;nbsp;&lt;/i&gt;
-              &lt;span class=&quot;jektify__button jektify__button--white jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
-          &lt;/dt&gt;
-
-          &lt;dd class=&quot;jektify__body jektify__body--white jektify__body--custom&quot; style=&quot;display: none&quot;&gt;
-
-            &lt;div class=&quot;jektify__user&quot;&gt;&lt;a href=&quot;https://open.spotify.com/user/williamcanin&quot; target=&quot;_blank&quot; class=&quot;jektify__user-link jektify__user-link--white jektify__user-link--custom&quot; title=&quot;See me no Spotify&quot;&gt;&lt;span class=&quot;jektify__user-text jektify__user-text--white jektify__user-text--custom&quot;&gt;See me no Spotify&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-
-            &lt;h1 class=&quot;jektify__title jektify__title--white jektify__user--white jektify__title--custom&quot; style=&quot;display: block;&quot;&gt;Jektify&lt;/h1&gt;
-
-            &lt;p class=&quot;jektify__description jektify__description--white jektify__description--custom&quot; style=&quot;display: block;&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.
+    &lt;h1 class=&quot;jektify__title jektify__title--white jektify__title--custom&quot; style=&quot;display: block;&quot;&gt;Jektify&lt;/h1&gt;
+    &lt;p class=&quot;jektify__description jektify__description--white jektify__description--custom&quot; style=&quot;display: block;&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.
 To listen to the full song, open your Spotify and start these musics.
 &lt;/p&gt;
-
-            &lt;div class=&quot;jektify__tracklist jektify__tracklist--white jektify__tracklist--custom&quot;&gt;
-              &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--white 
-                jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/artist/711MCceyCBcFnzjGY4Q7Un?theme=1&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
-              &lt;/iframe&gt;
-            &lt;/div&gt;
-          &lt;/dd&gt;
-        &lt;/dl&gt;
+    &lt;div class=&quot;jektify__tracklist jektify__tracklist--white jektify__tracklist--custom&quot;&gt;
+      &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--white jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/artist/711MCceyCBcFnzjGY4Q7Un?theme=1&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+      &lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;album&quot;&gt;Album&lt;/h2&gt;
 
 &lt;dl class=&quot;jektify jektify--dark jektify--custom&quot;&gt;
+  &lt;dt class=&quot;jektify__header jektify__header--dark jektify__header--custom&quot;&gt;
+    &lt;a class=&quot;jektify__brand jektify__brand--dark jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
+    &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2025&amp;nbsp;&lt;/i&gt;
+    &lt;span class=&quot;jektify__button jektify__button--dark jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
+  &lt;/dt&gt;
+  &lt;dd class=&quot;jektify__body jektify__body--dark jektify__body--custom&quot; style=&quot;display: none&quot;&gt;
+    &lt;div class=&quot;jektify__user&quot;&gt;
+  &lt;a href=&quot;https://open.spotify.com/user/williamcanin&quot; target=&quot;_blank&quot; class=&quot;jektify__user-link jektify__user-link--dark jektify__user-link--custom&quot; title=&quot;See me no Spotify&quot;&gt;
+    &lt;span class=&quot;jektify__user-text jektify__user-text--dark jektify__user-text--custom&quot;&gt;See me no Spotify&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
 
-          &lt;dt class=&quot;jektify__header jektify__header--dark jektify__header--custom&quot;&gt;
-
-            &lt;a class=&quot;jektify__brand jektify__brand--dark jektify__brand--custom&quot; href=&quot;https://jektify.github.io&quot; target=&quot;_blank&quot;&gt;jektify&lt;/a&gt;
-
-            &lt;i class=&quot;jektify__year jektify__year--dark jektify__year--custom&quot;&gt;&amp;copy;&amp;nbsp;2021&amp;nbsp;&lt;/i&gt;
-              &lt;span class=&quot;jektify__button jektify__button--dark jektify__button--custom jektify__button--closed&quot;&gt;+&lt;/span&gt;
-          &lt;/dt&gt;
-
-          &lt;dd class=&quot;jektify__body jektify__body--dark jektify__body--custom&quot; style=&quot;display: none&quot;&gt;
-
-            &lt;div class=&quot;jektify__user&quot;&gt;&lt;a href=&quot;https://open.spotify.com/user/williamcanin&quot; target=&quot;_blank&quot; class=&quot;jektify__user-link jektify__user-link--dark jektify__user-link--custom&quot; title=&quot;See me no Spotify&quot;&gt;&lt;span class=&quot;jektify__user-text jektify__user-text--dark jektify__user-text--custom&quot;&gt;See me no Spotify&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-
-            &lt;h1 class=&quot;jektify__title jektify__title--dark jektify__user--dark jektify__title--custom&quot; style=&quot;display: block;&quot;&gt;Jektify&lt;/h1&gt;
-
-            &lt;p class=&quot;jektify__description jektify__description--dark jektify__description--custom&quot; style=&quot;display: block;&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.
+    &lt;h1 class=&quot;jektify__title jektify__title--dark jektify__title--custom&quot; style=&quot;display: block;&quot;&gt;Jektify&lt;/h1&gt;
+    &lt;p class=&quot;jektify__description jektify__description--dark jektify__description--custom&quot; style=&quot;display: block;&quot;&gt;Jekyll plugin to generate html snippets for embedding Spotify Musics.
 To listen to the full song, open your Spotify and start these musics.
 &lt;/p&gt;
-
-            &lt;div class=&quot;jektify__tracklist jektify__tracklist--dark jektify__tracklist--custom&quot;&gt;
-              &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--dark 
-                jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/album/6OwvO40ahugJE5PH4TjqTg?theme=0&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
-              &lt;/iframe&gt;
-            &lt;/div&gt;
-          &lt;/dd&gt;
-        &lt;/dl&gt;
+    &lt;div class=&quot;jektify__tracklist jektify__tracklist--dark jektify__tracklist--custom&quot;&gt;
+      &lt;iframe id=&quot;jektify__track&quot; class=&quot;jektify__track jektify__track--dark jektify__track--custom&quot; src=&quot;https://open.spotify.com/embed/album/6OwvO40ahugJE5PH4TjqTg?theme=0&quot; width=&quot;100%&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;
+      &lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
 
 &lt;h1 class=&quot;markdown__h1&quot; id=&quot;report-questions--feedbacks&quot;&gt;Report questions / Feedbacks&lt;/h1&gt;
 
@@ -508,7 +492,7 @@ To listen to the full song, open your Spotify and start these musics.
 
 &lt;hr /&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;Copyright (c) 2021 William Canin&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;Copyright (c) 2025 William Canin&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 01 Feb 2018 05:31:10 -0200</pubDate>
