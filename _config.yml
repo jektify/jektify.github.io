@@ -41,7 +41,7 @@ compress_html:
   startings: []
 
 # Excluded for build
-exclude: ["_gems","Gemfile","*.lock","build","serve", ".bundle-cache"]
+exclude: ["_gems","Gemfile","*.lock","build","serve", ".bundle-cache", "README.md"]
 
 # ----------------------------------------------------------------------
 # Jektify - Configuration for _config.yml
