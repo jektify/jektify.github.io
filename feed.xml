@@ -6,8 +6,8 @@
 </description>
     <link>https://jektify.github.io/</link>
     <atom:link href="https://jektify.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Sep 2025 22:50:56 -0300</pubDate>
-    <lastBuildDate>Fri, 19 Sep 2025 22:50:56 -0300</lastBuildDate>
+    <pubDate>Sat, 20 Sep 2025 11:15:48 -0300</pubDate>
+    <lastBuildDate>Sat, 20 Sep 2025 11:15:48 -0300</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -91,9 +91,9 @@
 
 &lt;h2 class=&quot;markdown__h2&quot; id=&quot;setting-up-your-stylesheet-using-jekyll-sass&quot;&gt;Setting up your stylesheet using Jekyll SASS&lt;/h2&gt;
 
-&lt;p class=&quot;markdown__paragraph&quot;&gt;If you use CSS Jekyll, insert this line in the manifest &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main.scss&lt;/code&gt; SASS of your project:&lt;/p&gt;
+&lt;p class=&quot;markdown__paragraph&quot;&gt;If you use CSS Jekyll, insert this line in the manifest &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass/main.scss&lt;/code&gt; SASS of your project:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;jektify&quot;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;span class=&quot;k&quot;&gt;@use&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jektify&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote class=&quot;markdown__blockquote markdown__paragraph&quot;&gt;
   &lt;p&gt;Note: It is advisable to insert the end of all imports&lt;/p&gt;
