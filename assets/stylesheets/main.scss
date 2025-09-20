@@ -1,17 +1,13 @@
 ---
 ---
 
-@charset "utf-8";
-
-@import
-        "base"
-        ,"includes/includes"
-        ,"layouts/layouts"
-        ,"syntax/syntax"
-;
+@use "base";
+@use "includes/includes";
+@use "layouts/layouts";
+@use "syntax/syntax";
 
 // plugins
-@import "jektify";
+@use "jektify";
 
 // This development player
-// @import "dev/development";
+// @use "dev/development";
