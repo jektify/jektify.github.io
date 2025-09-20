@@ -62,10 +62,10 @@ gem install jektify
 ## Setting up your stylesheet using Jekyll SASS
 
 {: .markdown__paragraph}
-If you use CSS Jekyll, insert this line in the manifest `main.scss` SASS of your project:
+If you use CSS Jekyll, insert this line in the manifest `_sass/main.scss` SASS of your project:
 
 {% highlight sass %}
-@import "jektify";
+@use "jektify";
 {% endhighlight %}
 
 {: .markdown__blockquote .markdown__paragraph}
